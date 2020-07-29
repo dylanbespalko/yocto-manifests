@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="xilinx"  fetch="git://github.com/xilinx"/>
+  <remote name="origin"  fetch="git://github.com/dylanbespalko"/>
 
   <default sync-j="4"/>
 
   <project remote="xilinx"  revision="rel-v2019.2"      name="yocto-scripts"            path="."/>
-  <project remote="xilinx"  revision="rel-v2019.2"      name="yocto-manifests"          path="sources/manifest"/>
+  <project remote="origin"  revision="rel-v2019.2"      name="yocto-manifests"          path="sources/manifest"/>
   <project remote="xilinx"  revision="rel-v2019.2"      name="meta-xilinx"              path="sources/meta-xilinx"/>
   <!-- <project remote="xilinx"  revision="rel-v2019.2"      name="meta-xilinx-tools"        path="sources/meta-xilinx-tools"/> -->
   <!-- <project remote="xilinx"  revision="rel-v2019.2"      name="meta-petalinux"           path="sources/meta-petalinux"/>  -->
