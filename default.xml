@@ -2,7 +2,7 @@
 <manifest>
   <remote name="xilinx"  fetch="git://github.com/xilinx"/>
   <remote name="origin"  fetch="git://github.com/dylanbespalko"/>
-  <remote name="gitlab"  fetch="https://gitlab.com/dylan_bespalko_work"/>
+  <remote name="gitlab"  fetch="git://gitlab.com/dylan_bespalko_work"/>
 
   <default sync-j="4"/>
 
