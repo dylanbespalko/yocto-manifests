@@ -20,5 +20,6 @@
   <project remote="xilinx"  revision="rel-v2019.2"      name="meta-linaro"              path="sources/meta-linaro"/>
   <project remote="xilinx"  revision="rel-v2019.2"      name="meta-virtualization"      path="sources/meta-virtualization"/>
   <!-- <project remote="xilinx"  revision="rel-v2019.2"      name="meta-jupyter"             path="sources/meta-jupyter"/> -->
+  <project remote="origin"  revision="rel-v2019.2"      name="meta-customlayer"      path="sources/meta-customlayer"/>
 
 </manifest>
