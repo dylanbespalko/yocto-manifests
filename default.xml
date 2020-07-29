@@ -7,7 +7,7 @@
   <default sync-j="4"/>
 
   <project remote="xilinx"  revision="rel-v2019.2"      name="yocto-scripts"            path="."/>
-  <project remote="origin"  revision="rel-v2019.2"      name="yocto-manifests"          path="sources/manifest"/>
+  <project remote="gitlab"  revision="rel-v2019.2"      name="yocto-manifests"          path="sources/manifest"/>
   <project remote="xilinx"  revision="rel-v2019.2"      name="meta-xilinx"              path="sources/meta-xilinx"/>
   <!-- <project remote="xilinx"  revision="rel-v2019.2"      name="meta-xilinx-tools"        path="sources/meta-xilinx-tools"/> -->
   <!-- <project remote="xilinx"  revision="rel-v2019.2"      name="meta-petalinux"           path="sources/meta-petalinux"/>  -->
